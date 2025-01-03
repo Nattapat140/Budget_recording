@@ -62,3 +62,7 @@ This university project (2023) is a Python-based budget recording application de
     <li>Exit the program</li>
   </ul>
 </ul>
+<ul>
+  <img alt="Screenshot 2568-01-03 at 17 33 14" src="https://github.com/user-attachments/assets/b7a6b3a9-dd94-4f05-81e5-b4d2d571a92f" width="475" height="250"/>
+  <img alt="Screenshot 2568-01-03 at 17 33 53" src="https://github.com/user-attachments/assets/55672ed1-621f-474b-b994-9f4cd64dab6f" width="475" height="250" float: left;/>
+</ul>
