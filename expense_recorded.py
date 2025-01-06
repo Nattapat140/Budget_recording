@@ -28,6 +28,8 @@ class Records:
     def __init__(self):
         """Read total balance from the file"""
         self._new = 0
+        #For automated purposes (please comment if u wanna run the normal program)
+        self._test = 0
         try:
             with open('Balance.txt', 'r') as fh:
                 self._balance = fh.read()
@@ -56,6 +58,7 @@ class Records:
             self._new = 0
         elif self._new == 0:
             print('Welcome back!')
+
     
     def show_graph(self, choice):
         '''show graph(records)'''
@@ -134,7 +137,6 @@ class Records:
                 sys.stderr.write('Wrong Input')
         return
 
-    @property
     def view(self):
         '''view records'''
         tmp = self._records_book.split(',')
@@ -323,6 +325,8 @@ records = Records()
 
 while True:
     try:
+        if (records._test == 0):
+            break
         command = input('What do you want to do? \
         \n(a or A)add \
         \n(v or V)view \
