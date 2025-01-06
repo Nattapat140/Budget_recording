@@ -216,7 +216,9 @@ class Records:
             result = list(filter(lambda x: x[0] in lists, tmp))
             cnt=0
             balance = 0
+            category = ''
             for i in result:
+                category = i[0]
                 balance += int(i[2])
                 result[cnt] = ' '.join(i)
                 cnt+=1
