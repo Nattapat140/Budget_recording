@@ -2,6 +2,8 @@
 
 This university project (2023) is a Python-based budget recording application designed to help users manage their expenses and income effectively. It influences Object-Oriented Programming (OOP) principles to create a structured and modular codebase and utilizes file handling to store and retrieve user data persistently. <br><br>
 
+Update 7th January 2025: Add automated testing via Github Action <br><br>
+
 <h3>📖 About the Project</h3>
 🚀 Key Concepts Covered<br>
 <ul> 
